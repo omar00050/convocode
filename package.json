@@ -1,0 +1,39 @@
+{
+  "name": "convocode",
+  "version": "1.0.0",
+  "description": "ConvoCode Visual Canvas Code Generator — Project Setup & Layout Shell",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "canvas": "^3.2.1",
+    "jimp": "^0.22.12",
+    "konva": "^10.2.0",
+    "lucide-react": "^0.468.0",
+    "next": "^15.1.3",
+    "prismjs": "^1.30.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-konva": "^19.2.2",
+    "sharp": "^0.34.5",
+    "skia-canvas": "^3.0.8",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.2",
+    "@types/prismjs": "^1.26.6",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2"
+  }
+}
